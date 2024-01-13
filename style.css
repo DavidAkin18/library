@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body{
+    background-color: #6b7280;
+}
+.container{
+    width: 100%;
+    text-align: center;
+}
+#new-book-btn{
+    width: 30%;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #38bdf8;
+    color: #fff;
+    font-weight: bold;
+}
+#new-form{
+    width: 30%;
+    margin: 10px auto;
+    background-color: #86efac;
+    padding: 20px;
+    text-align: left;
+}
+.book{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0px;
+    color: #fff;
+    text-align: left;
+}
+#sub{
+    background-color: #38bdf8;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.library{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.card{
+    background-color: #fff;
+    border: none; 
+    border-radius: 10px;
+}
+.btn-do{
+    width: 50%;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.remove-btn{
+    background-color: #f87171;
+    font-weight: bold;
+    color: #f5f5f4;
+}
+.remove-btn:hover{
+    background-color: #dc2626;
+}
